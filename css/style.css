@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
 *{
-	margin:  0;
+	margin: 0;
 	padding: 0;
 	box-sizing:  border-box;
 	font-family: 'Poppins', sans-serif;
@@ -41,7 +42,7 @@
 	padding: 0 20px;
 }
 .navigation .menu-toggle::before{
-	content: " ";
+	content: '';
 	position: absolute;
 	width: 30px;
 	height: 2px;
@@ -114,7 +115,7 @@
 	background: var(--color);
 }
 .navigation ul li a .icon::before{
-	content: " ";
+	content: '';
 	position: absolute;
 	top: 10px;
 	left: 0;
