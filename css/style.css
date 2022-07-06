@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing:  border-box;
 	font-family: 'Poppins', sans-serif;
 }
 .container{
@@ -14,14 +15,14 @@
 	background: #3d4152;
 }
 .navigation{
-	position: fixed;
+	position:fixed;
 	inset: 20px 0 20px 20px;
 	width: 75px;
 	min-height: 500px;
 	background: #fff;
 	transition: 0.5s;
 	display: flex;
-	justify-content:  center;
+	justify-content: center;
 	align-items: center;
 }
 .navigation.open {
@@ -53,7 +54,7 @@
 	transform: translateY(0) rotate(45deg);
 }
 .navigation .menu-toggle::after{
-	content: '';
+	content: " ";
 	position: absolute;
 	width: 30px;
 	height: 2px;
@@ -114,7 +115,7 @@
 	background: var(--color);
 }
 .navigation ul li a .icon::before{
-	content: " ";
+	content: '';
 	position: absolute;
 	top: 10px;
 	left: 0;
